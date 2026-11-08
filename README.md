@@ -18,3 +18,9 @@ Installer per Windows di **EasyWhisper**: dettatura vocale locale (nessun dato i
 
 - Tieni premuto **Ctrl + Win** per dettare nella finestra in primo piano; **Ctrl + Win + Spazio** per le mani libere.
 - **Ctrl + Alt + S** attiva il widget in ascolto: di' la parola chiave seguita da un comando (per esempio «registra», «nuova nota», «leggi», «schermo», «nascondi», «disattiva»).
+
+## Componenti scaricati dall'app
+
+Alcune release di questo repository non sono installer ma componenti che EasyWhisper scarica da solo quando servono:
+
+- `qwentts-<commit>`: server Qwen3-TTS per le **voci personali** (pagina **Voci**), compilato da qwentts.cpp (licenza MIT) con ggml (licenza MIT) e backend Vulkan. Le licenze sono incluse nello zip. I modelli Qwen3-TTS (Apache 2.0) e Pocket TTS (CC BY 4.0) si scaricano direttamente da Hugging Face.
